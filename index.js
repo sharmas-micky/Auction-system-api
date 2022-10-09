@@ -15,7 +15,7 @@ const productData = JSON.parse(rawData);
 
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "https://auction-client-sharmas.herokuapp.com",
+    origin: *,
   },
 });
 
