@@ -2,15 +2,15 @@
   "products": [
     {
       "name": "Audi 250",
-      "price": "500000",
+      "price": "600000",
       "owner": "admiralty20",
-      "last_bidder": "samson35"
+      "last_bidder": "rash_17"
     },
     {
       "name": "Lamborghini S50",
-      "price": "300000",
+      "price": "400000",
       "owner": "susaske40",
-      "last_bidder": "mickys"
+      "last_bidder": "sansa start"
     },
     {
       "name": "Ferrari F560",
@@ -20,15 +20,56 @@
     },
     {
       "name": "realme pro ",
-      "price": "12346",
+      "price": "12347",
       "owner": "micky_3242",
-      "last_bidder": "micky_3242"
+      "last_bidder": "sansa start"
     },
     {
       "name": "dream catcher",
-      "price": "1201",
+      "price": "1205",
       "owner": "micky_3242",
-      "last_bidder": "micky_3242"
+      "last_bidder": "sansa start"
+    },
+    {
+      "name": "syrax",
+      "price": "3240981",
+      "owner": "sansa start",
+      "last_bidder": "sansa start"
+    },
+    {
+      "name": "drogon",
+      "price": "93453491",
+      "owner": "sansa start",
+      "last_bidder": "sansa start"
+    },
+    {
+      "name": "needle",
+      "price": "40000",
+      "owner": "sansa start",
+      "last_bidder": "rash_17"
+    },
+    {
+      "name": "dagger",
+      "price": "232000",
+      "owner": "joffery",
+      "last_bidder": "joffery"
+    },
+    {
+      "name": "windows",
+      "price": "159",
+      "owner": "bil gates",
+      "last_bidder": "bil gates"
+    },
+    {
+      "name": "macbook",
+      "price": "120004",
+      "owner": "rash_17",
+      "last_bidder": "rash_17"
+    },
+    {
+      "name": "macbook pro",
+      "price": "130000",
+      "owner": "rash_17"
     }
   ]
 }

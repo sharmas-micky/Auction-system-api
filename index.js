@@ -15,7 +15,7 @@ const productData = JSON.parse(rawData);
 
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "https://auction-client-sharmas.herokuapp.com/",
+    origin: "*",
   },
 });
 
@@ -33,6 +33,7 @@ socketIO.on("connection", (socket) => {
     fs.writeFile("data.json", stringData, (err) => {
       console.error(err);
     });
+    socket.broadcast.emit("fetchData")
     //Sends back the data after adding a new product
     socket.broadcast.emit("addProductResponse", data);
   });
@@ -45,6 +46,7 @@ socketIO.on("connection", (socket) => {
       data.last_bidder,
       data.userInput
     );
+    socket.broadcast.emit('afterBid')
     //Sends back the data after placing a bid
     socket.broadcast.emit("bidProductResponse", data);
   });
